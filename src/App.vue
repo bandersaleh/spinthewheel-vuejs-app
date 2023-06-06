@@ -33,6 +33,7 @@
 }
 
 nav {
+  grid-area: nav;
   padding: 30px;
 }
 
@@ -45,7 +46,10 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 
+.router-view { grid-area: router-view; }
+
 footer {
+  grid-area: footer;
   /* padding: 30px 0px 90% 0px; */
 }
 
